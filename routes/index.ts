@@ -1,3 +1,1 @@
-export default defineEventHandler(() => ({
-  date: new Date(),
-}));
+export default defineEventHandler(() => new Date());
